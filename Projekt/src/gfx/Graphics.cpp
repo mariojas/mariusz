@@ -30,5 +30,5 @@ void Graphics::drawWindow()
 void Graphics::loadMapDatas(Map *map)
 {
 	platforms = map->getPlatforms();
-	//z tego co widze to nie mozna nic wiecej wyciagnac z map, mam racje?
+	//z tego co widze to nie mozna nic wiecej wyciagnac z map, czy mam racje?
 }
