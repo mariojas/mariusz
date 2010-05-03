@@ -1,9 +1,10 @@
 #ifndef PLAYERPHYSICS_H
 #define PLAYERPHYSICS_H
 
-#include "../common/Vecf.h"
+#include "../common/Vec.h"
 #include "../logic/Player.h"
 
+template <class Type>
 class PlayerPhysics
 {
 public:
@@ -13,7 +14,7 @@ public:
 private:
 	void update();
 	Player *p;
-	Vecf moveVector;
+	Vec<Type> moveVector;
 
 
 };

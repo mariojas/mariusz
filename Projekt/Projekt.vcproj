@@ -232,7 +232,11 @@
 				Name="common"
 				>
 				<File
-					RelativePath=".\src\common\Vecf.cpp"
+					RelativePath=".\src\common\Angle.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\src\common\Vec.cpp"
 					>
 				</File>
 			</Filter>
@@ -298,7 +302,11 @@
 				Name="common"
 				>
 				<File
-					RelativePath=".\src\common\Vecf.h"
+					RelativePath=".\src\common\Angle.h"
+					>
+				</File>
+				<File
+					RelativePath=".\src\common\Vec.h"
 					>
 				</File>
 			</Filter>
@@ -321,6 +329,10 @@
 				>
 			</File>
 		</Filter>
+		<File
+			RelativePath=".\ClassDiagram1.cd"
+			>
+		</File>
 		<File
 			RelativePath=".\README.txt"
 			>
